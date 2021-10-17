@@ -38,6 +38,34 @@
             android:text="aqui la descripcion de la pelicula"
             android:textColor="@color/yellow"
             android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buyTickets"
+            android:layout_width="237dp"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="BUY MY TICKETS!"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+        </Button>
+
+        <TextView
+            android:id="@+id/seatleft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textSize="14sp"
+            android:textColor="@color/yellow"
+            android:gravity="center"/>
+
+
+
     </LinearLayout>
 
 </LinearLayout>

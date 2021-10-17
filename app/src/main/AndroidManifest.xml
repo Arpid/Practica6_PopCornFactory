@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PopCornFactory">
         <activity
-            android:name=".Catalogo"
+            android:name=".Reservation"
+            android:exported="true" />
+        <activity
+            android:name=".SeatsSelection"
+            android:exported="true" />
+        <activity
+            android:name=".catalogo"
             android:exported="true" />
         <activity
             android:name=".detalle_pelicula"
